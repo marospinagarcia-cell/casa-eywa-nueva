@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TU-USUARIO-GITHUB/casa-eywa-nueva   # ⚠️ cambiar por el repo real (usuario/nombre-repo)
+  repo: marospinagarcia-cell/casa-eywa-nueva  
   branch: main
   base_url: https://casaeywa.com
   auth_endpoint: .netlify/functions/auth
