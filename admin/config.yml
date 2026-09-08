@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: marospinagarcia-cell/casa-eywa-nueva   
+  repo: TU-USUARIO-GITHUB/casa-eywa-nueva   # ⚠️ cambiar por el repo real (usuario/nombre-repo)
   branch: main
   base_url: https://casaeywa.com
   auth_endpoint: .netlify/functions/auth
@@ -90,3 +90,31 @@ collections:
                 name: "forYou"
                 widget: "list"
               - { label: "Qué encontrarás (un solo párrafo, separado por · )", name: "includes", widget: "text" }
+
+  # ============================================================
+  # GALERÍA — fotos y videos del home (agregar/quitar libremente)
+  # ============================================================
+  - name: "galeria"
+    label: "Galería (fotos y videos)"
+    files:
+      - file: "content/galeria.json"
+        label: "Elementos de la galería"
+        name: "galeria"
+        fields:
+          - label: "Fotos y videos"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.type}} — {{fields.alt}}"
+            fields:
+              - { label: "ID interno (sin espacios, ej. g09)", name: "id", widget: "string" }
+              - label: "¿Es foto o video?"
+                name: "type"
+                widget: "select"
+                options: ["image", "video"]
+                default: "image"
+              - label: "Archivo (sube la foto o el video aquí)"
+                name: "src"
+                widget: "file"
+                media_folder: "img/galeria"
+                public_folder: "img/galeria"
+              - { label: "Descripción breve (para accesibilidad, ej. \"Ceremonia al atardecer\")", name: "alt", widget: "string", required: false }

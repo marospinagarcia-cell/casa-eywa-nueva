@@ -112,9 +112,57 @@ function renderKit(k) {
 }
 
 /* ============================================================
+   GALERÍA — marquee dinámico (fotos y videos)
+   ============================================================ */
+function renderGalleryTile(item, hidden) {
+  const hiddenAttrs = hidden ? ' aria-hidden="true" tabindex="-1"' : '';
+  const altHidden = hidden ? '' : esc(item.alt);
+
+  if (item.type === 'video') {
+    return `<button class="gallery-item" data-type="video" data-full="${esc(item.src)}"${hiddenAttrs}>
+      <video src="${esc(item.src)}" muted autoplay loop playsinline preload="metadata"></video>
+      ${hidden ? '' : '<span class="video-badge">▶ Video</span>'}
+    </button>`;
+  }
+  return `<button class="gallery-item" data-type="image" data-full="${esc(item.src)}"${hiddenAttrs}>
+    <img src="${esc(item.src)}" alt="${altHidden}" loading="lazy">
+  </button>`;
+}
+
+function renderGallery(items) {
+  if (!items || !items.length) return '';
+
+  const mid = Math.ceil(items.length / 2);
+  const rowAItems = items.slice(0, mid);
+  const rowBItems = items.length > mid ? items.slice(mid) : items; // si hay pocos elementos, reusa todos en la fila B
+
+  const buildRow = (rowItems) => {
+    const visible = rowItems.map(it => renderGalleryTile(it, false)).join('');
+    const duplicate = rowItems.map(it => renderGalleryTile(it, true)).join(''); // duplicado para el loop continuo
+    return visible + duplicate;
+  };
+
+  return `
+    <div class="marquee-row row-a">${buildRow(rowAItems)}</div>
+    <div class="marquee-row row-b">${buildRow(rowBItems)}</div>`;
+}
+
+/* ============================================================
    CARGA Y RENDERIZADO
    ============================================================ */
 document.addEventListener('DOMContentLoaded', function () {
+
+  // Galería (fotos y videos) — index.html
+  const galleryEl = document.getElementById('gallery-marquee');
+  if (galleryEl) {
+    fetch('content/galeria.json')
+      .then(r => r.json())
+      .then(json => {
+        galleryEl.innerHTML = renderGallery(json.items || []);
+      })
+      .catch(err => console.error('Error cargando galería:', err));
+  }
+
 
   // Ficha completa de retiros (retiros-viajes.html)
   const retirosDetalle = document.getElementById('retiros-list');
