@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": "armonizacion-energetica",
+      "tone": "sage",
+      "icon": "🌿",
+      "name": "Kit de Armonización Energética",
+      "price": 120000,
+      "priceLabel": "$120.000 COP",
+      "hook": "Suelta lo que ya no necesitas y abre espacio para lo nuevo.",
+      "description": "Un ritual creado para acompañarte en momentos en los que deseas renovar tu ambiente, cerrar ciclos y recuperar una sensación de armonía.",
+      "forYou": [
+        "Sientes que necesitas hacer una pausa y renovar tu energía",
+        "Estás atravesando un cambio o cerrando un ciclo",
+        "Quieres acompañar un nuevo comienzo con intención"
+      ],
+      "includes": "Palo santo · hierbas para sahumar · vela de limpieza · sal energética · cristal de protección · auraspray · guía ritual Casa Eywa."
+    },
+    {
+      "id": "abundancia",
+      "tone": "gold",
+      "icon": "✨",
+      "name": "Kit de Abundancia y Prosperidad",
+      "price": 120000,
+      "priceLabel": "$120.000 COP",
+      "hook": "Cultiva una relación más consciente con la abundancia.",
+      "description": "Un ritual para conectar con tus metas, reconocer los recursos que ya existen en tu vida y abrir un espacio simbólico para nuevas posibilidades.",
+      "forYou": [
+        "Quieres comenzar un nuevo proyecto o etapa",
+        "Deseas fortalecer tu intención de prosperidad",
+        "Quieres transformar tu relación con el recibir y agradecer"
+      ],
+      "includes": "Cuarzo de abundancia · auraspray activador · vela dorada o verde · canela · ritual de 21 días · afirmaciones · planificador de metas · guía ritual."
+    },
+    {
+      "id": "amor-propio",
+      "tone": "rose",
+      "icon": "🌸",
+      "name": "Kit de Amor Propio",
+      "price": 120000,
+      "priceLabel": "$120.000 COP",
+      "hook": "Volver a ti también es una forma de amor.",
+      "description": "Un espacio creado para regalarte presencia, cuidado y conexión contigo — ideal para escucharte, reconocerte y fortalecer tu relación contigo misma.",
+      "forYou": [
+        "Quieres regalarte un momento de autocuidado",
+        "Estás atravesando un cambio personal",
+        "Deseas reconectar con tu valor y tus necesidades"
+      ],
+      "includes": "Cuarzo rosa · vela rosada · incienso suave · sales de autocuidado · aceite esencial programado · té relajante · tarjetas de afirmaciones · guía ritual."
+    },
+    {
+      "id": "conexion-angelical",
+      "tone": "lavender",
+      "icon": "👼",
+      "name": "Kit de Conexión Angelical",
+      "price": 150000,
+      "priceLabel": "$150.000 COP",
+      "hook": "Un espacio para escuchar, confiar y conectar con tu mundo interior.",
+      "description": "Un ritual inspirado en la tradición angelical, creado para acompañar momentos de oración, reflexión, gratitud y conexión espiritual.",
+      "forYou": [
+        "Sientes afinidad con la espiritualidad angelical",
+        "Quieres crear un pequeño altar o espacio de conexión",
+        "Buscas un momento de calma, reflexión y gratitud"
+      ],
+      "includes": "Cartas de mensajes angelicales · vela · selenita o amatista · incienso · elemento simbólico angelical · QR con meditaciones · oraciones angelicales · cartilla de arcángeles."
+    },
+    {
+      "id": "cumpleanos-aniversario",
+      "tone": "gold",
+      "icon": "🎂",
+      "name": "Kit Cumpleaños · Aniversario del Alma",
+      "price": 0,
+      "priceLabel": "Precio a confirmar",
+      "hook": "Un nuevo año de vida merece ser recibido con intención.",
+      "description": "Más que un regalo, una experiencia para celebrar tu historia, honrar lo vivido y abrir espacio a lo que deseas crear en el nuevo ciclo.",
+      "forYou": [
+        "Estás celebrando tu cumpleaños",
+        "Quieres recibir un nuevo ciclo de manera consciente",
+        "Buscas comenzar tu nuevo año con una intención especial"
+      ],
+      "includes": "Vela de celebración · cristal seleccionado · incienso · auraspray · tarjetas de reflexión · carta ritual de nuevo ciclo · QR con meditaciones · regalo sorpresa según tu fecha de nacimiento."
+    },
+    {
+      "id": "fin-de-ano",
+      "tone": "sage",
+      "icon": "🎄",
+      "name": "Kit Fin de Año · Navidad",
+      "price": 150000,
+      "priceLabel": "$150.000 COP",
+      "hook": "Cierra un ciclo con gratitud y abre espacio para lo que viene.",
+      "description": "Un ritual especial para despedir el año de manera consciente, agradecer lo vivido y crear una intención para el nuevo ciclo.",
+      "forYou": [
+        "Quieres cerrar el año con un momento de reflexión",
+        "Deseas soltar simbólicamente aquello que ya no quieres llevar",
+        "Buscas un regalo espiritual y significativo para alguien que amas"
+      ],
+      "includes": "Sal o jabón energético · palo santo · vela especial · incienso · cristal para el nuevo ciclo · auraspray · sobre de abundancia · tarjetas de gratitud e intención · guía ritual."
+    }
+  ]
+}

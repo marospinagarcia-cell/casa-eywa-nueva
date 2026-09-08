@@ -1,0 +1,92 @@
+backend:
+  name: github
+  repo: TU-USUARIO-GITHUB/casa-eywa-nueva   # ⚠️ cambiar por el repo real (usuario/nombre-repo)
+  branch: main
+  base_url: https://casaeywa.com
+  auth_endpoint: .netlify/functions/auth
+
+# Dónde se guardan las imágenes que Ángela suba desde el panel
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+# Vista previa en vivo dentro del panel (opcional, se puede desactivar si molesta)
+publish_mode: simple
+
+collections:
+
+  # ============================================================
+  # RETIROS — Raíces, Legado, Umbral, y cualquier retiro nuevo
+  # ============================================================
+  - name: "retiros"
+    label: "Retiros"
+    files:
+      - file: "content/retiros.json"
+        label: "Lista de retiros"
+        name: "retiros"
+        fields:
+          - label: "Retiros"
+            name: "items"
+            widget: "list"
+            summary: "{{name}} — {{date}}"
+            fields:
+              - { label: "ID interno (sin espacios ni tildes, ej. raices)", name: "id", widget: "string" }
+              - label: "Color de la tarjeta"
+                name: "tone"
+                widget: "select"
+                options: ["sage", "gold", "rose", "lavender"]
+              - { label: "Ícono (un emoji)", name: "icon", widget: "string", default: "🌿" }
+              - { label: "Nombre del retiro", name: "name", widget: "string" }
+              - { label: "Frase corta (debajo del nombre)", name: "hook", widget: "string", required: false }
+              - { label: "Ubicación / destino", name: "location", widget: "string" }
+              - { label: "Fecha (o \"Fecha por confirmar\")", name: "date", widget: "string" }
+              - { label: "Duración (ej. 1 día / 2 días, 1 noche)", name: "duration", widget: "string" }
+              - { label: "Precio (ej. $350.000 COP) — dejar vacío si aún no hay precio", name: "price", widget: "string", required: false }
+              - { label: "Nota junto al precio (ej. Cupos limitados)", name: "priceNote", widget: "string", required: false }
+              - { label: "Foto del retiro", name: "image", widget: "image", required: false }
+              - label: "Frase corta para la tarjeta del Inicio"
+                name: "shortBlurb"
+                widget: "text"
+              - label: "Párrafos del Concepto (uno por línea de la lista)"
+                name: "conceptParagraphs"
+                widget: "list"
+              - { label: "Frase destacada en el centro (opcional)", name: "conceptHighlight", widget: "string", required: false }
+              - { label: "Frase de cierre en cursiva (opcional)", name: "closingQuote", widget: "string", required: false }
+              - label: "Qué incluye (uno por línea)"
+                name: "includes"
+                widget: "list"
+              - { label: "Texto del botón", name: "ctaLabel", widget: "string", default: "Quiero conocer esta experiencia →" }
+              - { label: "Mensaje de WhatsApp al hacer clic en el botón", name: "ctaWhatsapp", widget: "string" }
+
+  # ============================================================
+  # TIENDA — los kits que se venden
+  # ============================================================
+  - name: "kits"
+    label: "Tienda (kits)"
+    files:
+      - file: "content/kits.json"
+        label: "Lista de kits"
+        name: "kits"
+        fields:
+          - label: "Kits"
+            name: "items"
+            widget: "list"
+            summary: "{{name}} — {{priceLabel}}"
+            fields:
+              - { label: "ID interno (sin espacios ni tildes)", name: "id", widget: "string" }
+              - label: "Color de la tarjeta"
+                name: "tone"
+                widget: "select"
+                options: ["sage", "gold", "rose", "lavender"]
+              - { label: "Ícono (un emoji)", name: "icon", widget: "string", default: "✨" }
+              - { label: "Nombre del kit", name: "name", widget: "string" }
+              - label: "Precio en números (ej. 120000). Poner 0 si aún no hay precio"
+                name: "price"
+                widget: "number"
+                value_type: "int"
+              - { label: "Precio en texto (ej. $120.000 COP, o \"Precio a confirmar\")", name: "priceLabel", widget: "string" }
+              - { label: "Frase corta (el gancho)", name: "hook", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - label: "\"Puede ser para ti si...\" (uno por línea)"
+                name: "forYou"
+                widget: "list"
+              - { label: "Qué encontrarás (un solo párrafo, separado por · )", name: "includes", widget: "text" }
