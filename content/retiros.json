@@ -1,6 +1,52 @@
 {
   "items": [
     {
+      "ctaWhatsapp": "Hola, quiero conocer la experiencia UMBRAL",
+      "hook": "Suelta lo que fue. Honra lo que eres. Ábrete a lo que viene.",
+      "ctaLabel": "Quiero conocer esta experiencia →",
+      "closingQuote": "",
+      "price": "$333.000 por persona",
+      "includes": [
+        "Alimentación (detalles al pedir información)",
+        "",
+        "Ritual consciente de cierre de ciclo",
+        "Ejercicios de revisión e integración del año",
+        "Prácticas simbólicas de soltar y liberar",
+        "Meditación y prácticas de presencia",
+        "Conexión con la naturaleza",
+        "Ceremonias y rituales de transformación",
+        "Trabajo de creencias sobre abundancia y prosperidad",
+        "Creación de intenciones para el nuevo ciclo",
+        "Escritura consciente / journaling",
+        "Ritual final para abrir el nuevo ciclo",
+        "Kit Umbral — Casa Eywa"
+      ],
+      "name": "Umbral",
+      "conceptHighlight": "",
+      "conceptParagraphs": [
+        "UMBRAL es un retiro de un día para despedir conscientemente un ciclo y preparar el terreno interior para lo que queremos crear",
+        "aprovechando la energía de cierre de año y apertura de un nuevo comienzo.",
+        "Una experiencia de pausa",
+        "reflexión",
+        "naturaleza",
+        "ritual y conexión en la que podrás mirar lo vivido",
+        "agradecer tus aprendizajes",
+        "liberar lo que pesa y establecer intenciones claras para el nuevo ciclo.",
+        "Umbral te invita a sumergirte en las frecuencias de alta vibración en torno al agradecimiento",
+        "el amor",
+        "el merecimiento y la abundancia."
+      ],
+      "date": "Sábado 19 de diciembre de 2026",
+      "tone": "lavender",
+      "duration": "1 día",
+      "location": "Hotel Campestre Inaoska · Puntalarga, Boyacá",
+      "icon": "🌙",
+      "priceNote": "",
+      "id": "umbral",
+      "image": "/img/uploads/whatsapp-image-2026-10-27-at-12.31.56-pm-1-.jpeg",
+      "shortBlurb": "UMBRAL, una experiencia de Casa Eywa para reconectar con tu esencia, la naturaleza y la conexión angelical; honrar tu historia y abrirte conscientemente a las posibilidades de un nuevo año. \n\nUn día para soltar, agradecer, cultivar amor propio y sembrar intenciones de salud, armonía y prosperidad para el 2027."
+    },
+    {
       "ctaWhatsapp": "Hola, lo quiero, lo necesito, lo vivo — quiero reservar RAÍCES",
       "hook": "Naturaleza · Mujeres · Historia · Presencia — Volver a lo esencial.",
       "ctaLabel": "Lo quiero, lo necesito, lo vivo →",
@@ -68,52 +114,6 @@
       "id": "legado",
       "image": "img/meditacion-hogar.jpg",
       "shortBlurb": "Un espacio para explorar nuestra relación con el masculino y la herencia emocional que hemos recibido."
-    },
-    {
-      "ctaWhatsapp": "Hola, quiero conocer la experiencia UMBRAL",
-      "hook": "Suelta lo que fue. Honra lo que eres. Ábrete a lo que viene.",
-      "ctaLabel": "Quiero conocer esta experiencia →",
-      "closingQuote": "",
-      "price": "$333.000 por persona",
-      "includes": [
-        "Alimentación (detalles al pedir información)",
-        "",
-        "Ritual consciente de cierre de ciclo",
-        "Ejercicios de revisión e integración del año",
-        "Prácticas simbólicas de soltar y liberar",
-        "Meditación y prácticas de presencia",
-        "Conexión con la naturaleza",
-        "Ceremonias y rituales de transformación",
-        "Trabajo de creencias sobre abundancia y prosperidad",
-        "Creación de intenciones para el nuevo ciclo",
-        "Escritura consciente / journaling",
-        "Ritual final para abrir el nuevo ciclo",
-        "Kit Umbral — Casa Eywa"
-      ],
-      "name": "Umbral",
-      "conceptHighlight": "",
-      "conceptParagraphs": [
-        "UMBRAL es un retiro de un día para despedir conscientemente un ciclo y preparar el terreno interior para lo que queremos crear",
-        "aprovechando la energía de cierre de año y apertura de un nuevo comienzo.",
-        "Una experiencia de pausa",
-        "reflexión",
-        "naturaleza",
-        "ritual y conexión en la que podrás mirar lo vivido",
-        "agradecer tus aprendizajes",
-        "liberar lo que pesa y establecer intenciones claras para el nuevo ciclo.",
-        "Umbral te invita a sumergirte en las frecuencias de alta vibración en torno al agradecimiento",
-        "el amor",
-        "el merecimiento y la abundancia."
-      ],
-      "date": "Sábado 19 de diciembre de 2026",
-      "tone": "lavender",
-      "duration": "1 día",
-      "location": "Hotel Campestre Inaoska · Puntalarga, Boyacá",
-      "icon": "🌙",
-      "priceNote": "",
-      "id": "umbral",
-      "image": "/img/uploads/whatsapp-image-2026-10-27-at-12.31.56-pm-1-.jpeg",
-      "shortBlurb": "UMBRAL, una experiencia de Casa Eywa para reconectar con tu esencia, la naturaleza y la conexión angelical; honrar tu historia y abrirte conscientemente a las posibilidades de un nuevo año. \n\nUn día para soltar, agradecer, cultivar amor propio y sembrar intenciones de salud, armonía y prosperidad para el 2027."
     }
   ]
 }
