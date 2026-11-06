@@ -1,25 +1,11 @@
 {
   "items": [
     {
-      "id": "raices",
-      "tone": "sage",
-      "icon": "🌿",
-      "name": "Raíces",
+      "ctaWhatsapp": "Hola, lo quiero, lo necesito, lo vivo — quiero reservar RAÍCES",
       "hook": "Naturaleza · Mujeres · Historia · Presencia — Volver a lo esencial.",
-      "location": "Hotel Campestre Inaoska, Puntalarga (Boyacá)",
-      "date": "Fecha por confirmar",
-      "duration": "1 día",
-      "price": "$350.000 COP",
-      "priceNote": "Cupos limitados",
-      "image": "img/retiros/raices-fogata.jpg",
-      "shortBlurb": "Volver a lo esencial: naturaleza, linaje femenino y presencia, en un día para reconectar contigo.",
-      "conceptParagraphs": [
-        "RAÍCES es una experiencia de bienestar y conexión con la naturaleza creada para mujeres que desean alejarse por unos días del ruido cotidiano y regresar a lo esencial.",
-        "A través de naturaleza, movimiento, descanso, meditación, alimentación consciente, escritura y experiencias simbólicas, el retiro propone un recorrido desde:",
-        "Un espacio para explorar no solamente quién eres hoy, sino también las historias, vínculos, valores y aprendizajes que han contribuido a construirte desde el linaje femenino."
-      ],
-      "conceptHighlight": "Tierra → Cuerpo → Historia → Presencia → Nuevas raíces",
+      "ctaLabel": "Lo quiero, lo necesito, lo vivo →",
       "closingQuote": "",
+      "price": "$350.000 COP",
       "includes": [
         "Alimentación (almuerzo y refrigerios)",
         "Ceremonia de linaje femenino",
@@ -31,28 +17,29 @@
         "Ejercicios de introspección y escritura consciente",
         "Kit Raíces — Casa Eywa"
       ],
-      "ctaLabel": "Lo quiero, lo necesito, lo vivo →",
-      "ctaWhatsapp": "Hola, lo quiero, lo necesito, lo vivo — quiero reservar RAÍCES"
+      "name": "Raíces",
+      "conceptHighlight": "Tierra → Cuerpo → Historia → Presencia → Nuevas raíces",
+      "conceptParagraphs": [
+        "RAÍCES es una experiencia de bienestar y conexión con la naturaleza creada para mujeres que desean alejarse por unos días del ruido cotidiano y regresar a lo esencial.",
+        "A través de naturaleza, movimiento, descanso, meditación, alimentación consciente, escritura y experiencias simbólicas, el retiro propone un recorrido desde:",
+        "Un espacio para explorar no solamente quién eres hoy, sino también las historias, vínculos, valores y aprendizajes que han contribuido a construirte desde el linaje femenino."
+      ],
+      "date": "Fecha por confirmar",
+      "tone": "sage",
+      "duration": "1 día",
+      "location": "Hotel Campestre Inaoska, Puntalarga (Boyacá)",
+      "icon": "🌿",
+      "priceNote": "Cupos limitados",
+      "id": "raices",
+      "image": "img/retiros/raices-fogata.jpg",
+      "shortBlurb": "Volver a lo esencial: naturaleza, linaje femenino y presencia, en un día para reconectar contigo."
     },
     {
-      "id": "legado",
-      "tone": "gold",
-      "icon": "✨",
-      "name": "Legado",
+      "ctaWhatsapp": "Hola, quiero conocer la experiencia LEGADO",
       "hook": "",
-      "location": "Destino: por definir",
-      "date": "Fecha por confirmar",
-      "duration": "1 día",
-      "price": "",
-      "priceNote": "",
-      "image": "img/meditacion-hogar.jpg",
-      "shortBlurb": "Un espacio para explorar nuestra relación con el masculino y la herencia emocional que hemos recibido.",
-      "conceptParagraphs": [
-        "LEGADO es un retiro de un día creado para explorar nuestra relación con el masculino y la herencia emocional que hemos recibido.",
-        "A través de prácticas de introspección, conexión corporal, reflexión y ritual, abrimos un espacio seguro para comprender nuestra historia desde una nueva mirada y recuperar la libertad de elegir qué queremos llevar hacia adelante."
-      ],
-      "conceptHighlight": "",
+      "ctaLabel": "Quiero conocer esta experiencia →",
       "closingQuote": "No se trata de cambiar el pasado, sino de transformar la manera en que hoy nos relacionamos con él.",
+      "price": "",
       "includes": [
         "Exploración del linaje masculino y sus influencias",
         "Reflexión sobre patrones, creencias y aprendizajes heredados",
@@ -66,32 +53,31 @@
         "Espacio grupal de escucha y acompañamiento",
         "Kit Legado — Casa Eywa"
       ],
-      "ctaLabel": "Quiero conocer esta experiencia →",
-      "ctaWhatsapp": "Hola, quiero conocer la experiencia LEGADO"
+      "name": "Legado",
+      "conceptHighlight": "",
+      "conceptParagraphs": [
+        "LEGADO es un retiro de un día creado para explorar nuestra relación con el masculino y la herencia emocional que hemos recibido.",
+        "A través de prácticas de introspección, conexión corporal, reflexión y ritual, abrimos un espacio seguro para comprender nuestra historia desde una nueva mirada y recuperar la libertad de elegir qué queremos llevar hacia adelante."
+      ],
+      "date": "Fecha por confirmar",
+      "tone": "gold",
+      "duration": "1 día",
+      "location": "Destino: por definir",
+      "icon": "✨",
+      "priceNote": "",
+      "id": "legado",
+      "image": "img/meditacion-hogar.jpg",
+      "shortBlurb": "Un espacio para explorar nuestra relación con el masculino y la herencia emocional que hemos recibido."
     },
     {
-      "id": "umbral",
-      "tone": "lavender",
-      "icon": "🌙",
-      "name": "Umbral",
-      "hook": "",
-      "location": "Destino: por definir",
-      "date": "28 de noviembre de 2026",
-      "duration": "2 días, 1 noche",
-      "price": "",
-      "priceNote": "",
-      "image": "img/meditacion-amanecer.jpg",
-      "shortBlurb": "Despedir conscientemente un ciclo y preparar el terreno interior para lo que viene.",
-      "conceptParagraphs": [
-        "UMBRAL es un retiro de dos días para despedir conscientemente un ciclo y preparar el terreno interior para lo que queremos crear, aprovechando la energía de cierre de año y apertura de un nuevo comienzo.",
-        "Una experiencia de pausa, reflexión, naturaleza, ritual y conexión en la que podrás mirar lo vivido, agradecer tus aprendizajes, liberar lo que pesa y establecer intenciones claras para el nuevo ciclo.",
-        "Umbral te invita a sumergirte en las frecuencias de alta vibración en torno al agradecimiento, el amor, el merecimiento y la abundancia."
-      ],
-      "conceptHighlight": "",
+      "ctaWhatsapp": "Hola, quiero conocer la experiencia UMBRAL",
+      "hook": "Suelta lo que fue. Honra lo que eres. Ábrete a lo que viene.",
+      "ctaLabel": "Quiero conocer esta experiencia →",
       "closingQuote": "",
+      "price": "$333.000 por persona",
       "includes": [
         "Alimentación (detalles al pedir información)",
-        "Alojamiento",
+        "",
         "Ritual consciente de cierre de ciclo",
         "Ejercicios de revisión e integración del año",
         "Prácticas simbólicas de soltar y liberar",
@@ -104,8 +90,30 @@
         "Ritual final para abrir el nuevo ciclo",
         "Kit Umbral — Casa Eywa"
       ],
-      "ctaLabel": "Quiero conocer esta experiencia →",
-      "ctaWhatsapp": "Hola, quiero conocer la experiencia UMBRAL"
+      "name": "Umbral",
+      "conceptHighlight": "",
+      "conceptParagraphs": [
+        "UMBRAL es un retiro de un día para despedir conscientemente un ciclo y preparar el terreno interior para lo que queremos crear",
+        "aprovechando la energía de cierre de año y apertura de un nuevo comienzo.",
+        "Una experiencia de pausa",
+        "reflexión",
+        "naturaleza",
+        "ritual y conexión en la que podrás mirar lo vivido",
+        "agradecer tus aprendizajes",
+        "liberar lo que pesa y establecer intenciones claras para el nuevo ciclo.",
+        "Umbral te invita a sumergirte en las frecuencias de alta vibración en torno al agradecimiento",
+        "el amor",
+        "el merecimiento y la abundancia."
+      ],
+      "date": "Sábado 19 de diciembre de 2026",
+      "tone": "lavender",
+      "duration": "1 día",
+      "location": "Hotel Campestre Inaoska · Puntalarga, Boyacá",
+      "icon": "🌙",
+      "priceNote": "",
+      "id": "umbral",
+      "image": "/img/uploads/whatsapp-image-2026-10-27-at-12.31.56-pm-1-.jpeg",
+      "shortBlurb": "UMBRAL, una experiencia de Casa Eywa para reconectar con tu esencia, la naturaleza y la conexión angelical; honrar tu historia y abrirte conscientemente a las posibilidades de un nuevo año. \n\nUn día para soltar, agradecer, cultivar amor propio y sembrar intenciones de salud, armonía y prosperidad para el 2027."
     }
   ]
 }
